@@ -1,0 +1,50 @@
+
+
+
+
+.PlantCard{
+    border: 2px solid black;
+    margin: 10px 0px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    position: relative;
+    background-color:greenyellow ;
+    width: 600px;
+    height: 250px;
+  
+}
+
+.category,
+.plant-image,
+.price,
+.description{
+
+    font-size: 20px;
+    font-weight: 400;
+
+
+}
+.btn-div{
+    display: flex;
+}
+.upper-line{
+    display: flex;
+    position: relative;
+}
+.plant-image{
+    margin-top: 10px;
+  
+    position: absolute;
+    right: 0px;
+    height: 150px;
+    width: 150px;
+    border-radius: 5px;
+}
+
+.plant-card-action-btn{
+  margin: 20px;
+  padding: 10px;
+  background-color: #000;
+  color: #fff;
+  border-radius: 10px;
+}
